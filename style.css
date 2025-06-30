@@ -1,0 +1,52 @@
+body {
+  background-color: #0d0d0d;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Removido a regra h2 geral para evitar conflitos de especificidade */
+/* h2 {
+  color: #FFD700;
+} */
+
+/* Nova regra para o título principal da navbar, com maior especificidade */
+.titulo-principal {
+  color: #ffc400; /* Dourado */
+}
+
+.secao-conteudo {
+  padding: 4rem 2rem;
+  background-color: #141414;
+  border-top: 2px solid #bfa14b;
+  color: #e29b00;
+}
+
+.carrossel-container {
+  position: relative;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  height: 90vh;
+  object-fit: cover;
+}
+
+.carrossel-conteudo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 10;
+}
+
+.btn-warning {
+  background-color: #bfa14b;
+  border: none;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #000;
+}
